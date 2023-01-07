@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+section{
+    margin: 130px 180px;
+}
+
+/* header styles */
+/* banner styles */
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    text-align: right;
+    padding: 216px 20px 166px 845px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+.banner-description{
+    color: #444343;
+    margin-top: 24px;
+}
+.banner-btn{
+    margin-top: 32px;
+    background-color: #F15B22;
+    color: #fff;
+}
+
+/* main styles */
+
+/* failure style */
+.failure{
+    display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.failure-content{
+    
+}
+.failure-content .failure-img{
+    text-align: center;
+}
+.failure-content .title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failure-content .description, .failure-content ul{
+    color: #444343;
+    margin-top: 27px;
+}
+.failure-content ul{}
+.failure-content ul li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -40px;
+}
+.failure-content ul li i{
+    color: darkgreen;
+}
+/* plan section styles */
+.plan{}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.plan-box{
+    display: flex;
+    gap: 80px;
+}
+.plan-content{
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-content h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-content p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* mindset section styles */
+.mindset{
+    background-image: url('../images/watch.png'), linear-gradient(to right, #f44a07, #565656);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.mindset-content{
+    padding: 58px 64px;
+}
+.mindset-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.mindset-btn{
+    margin-top: 24px;
+    background: #fff;
+    color: #F15B22;
+}
+
+
