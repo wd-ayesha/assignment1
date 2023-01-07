@@ -1,6 +1,7 @@
+/* common styles */
 *{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .btn{
     font-weight: 600;
@@ -21,7 +22,7 @@ section{
 }
 .banner-content{
     text-align: right;
-    padding: 216px 20px 166px 845px;
+    padding: 216px 40px 166px 840px;
 }
 .banner-title{
     font-weight: 700;
@@ -40,18 +41,11 @@ section{
 }
 
 /* main styles */
-
-/* failure style */
+/* failure section styles */
 .failure{
     display: flex;
-   align-items: center;
-   gap: 40px;
-}
-.failure-content{
-    
-}
-.failure-content .failure-img{
-    text-align: center;
+    align-items: center;
+    gap: 80px;
 }
 .failure-content .title{
     font-weight: 700;
@@ -62,7 +56,6 @@ section{
     color: #444343;
     margin-top: 27px;
 }
-.failure-content ul{}
 .failure-content ul li{
     list-style: none;
     line-height: 30px;
@@ -71,8 +64,8 @@ section{
 .failure-content ul li i{
     color: darkgreen;
 }
+
 /* plan section styles */
-.plan{}
 .section-title{
     font-weight: 700;
     font-size: 40px;
@@ -81,7 +74,7 @@ section{
 }
 .plan-box{
     display: flex;
-    gap: 80px;
+    justify-content: space-evenly;
 }
 .plan-content{
     text-align: center;
@@ -91,12 +84,15 @@ section{
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+    margin-top: 24px;
 }
 .plan-content p{
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+    margin-top: 16px;
 }
+
 /* mindset section styles */
 .mindset{
     background-image: url('../images/watch.png'), linear-gradient(to right, #f44a07, #565656);
@@ -118,6 +114,33 @@ section{
     color: #F15B22;
     padding: 20px 36px;
 }
+
+/* resource section styles */
+.resource-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.source-item{
+    box-shadow: 0px 3px 8px #2d2521;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+.source-item h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.source-item ul li{
+    list-style:square;
+}
+.source-item ul li a{
+    text-decoration: none;
+    color: #F15B22;
+}
+iframe{
+    border-radius: 10px;
+}
+
 /* footer styles */
 footer{
     background: #151414;
@@ -159,7 +182,6 @@ footer{
     padding: 10px;
     border-radius: 50%;
 }
-.footer-right{}
 .footer-right-title{ 
     font-weight: 600;
     font-size: 25px;
